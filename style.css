@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Roboto&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}   
+
+body{
+    background: #a2a8d3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#gameDiv{
+    max-width: 75vh;
+    background: #113f67;
+    border: none;
+    color: #e7eaf6;;
+    border-radius: 90%;
+    max-height: 50vh;
+    min-width: 450px;
+    height: 40%;
+    min-height: 400px;
+    position:relative;
+    text-align: center;
+}
+
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+
+.buttonDiv{
+    text-align: center;
+}
+.choiceBtns{
+    width: 130px;
+    height: 50px;
+    font-size: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 40px;
+    background: #38598b;
+    color: #e7eaf6;;
+    border:none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.choiceBtns:hover{
+    background-color: #e7eaf6;;
+    color:  #38598b;
+}
+
+.gameTitle{
+    
+    color: #e7eaf6;;
+    z-index: 1;
+    
+}
+
+.decoration {
+    position: absolute;
+    top: 30px;
+    background-color: #113f67;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+
+#resetScore{
+    height: 50px;
+    font-size: 24px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 200px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    background-color: #38598b;
+    color: #e7eaf6;;
+    border:none;
+    border-radius: 35px;
+    cursor: pointer;
+    transition:0.5s;
+}
+
+#resetScore:hover{
+    background-color: #e7eaf6;
+    color:  #38598b;
+}
